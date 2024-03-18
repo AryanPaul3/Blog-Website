@@ -1,0 +1,21 @@
+{
+  "name": "blog-project",
+  "version": "1.0.0",
+  "description": "A simple blog connected to a MongoDB database.",
+  "main": "app.js",
+  "author": "Mueez Khan",
+  "license": "ISC",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.12.14"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
